@@ -182,7 +182,7 @@ const App = ({ isServerInfo }) => {
         </div>
       </Router>
       <Footer>
-        <span className="title">Made with <img src={Heart} width="16" height="16" alt="Heart" /> by <a href="#"> CryptoR DEX</a></span>
+        <span className="title">Made with <img src={Heart} width="16" height="16" alt="Heart" /> by CryptoR DEX</span>
         <div className="socials">
           <div className="social">
             <a href="https://github.com/ethereum-boilerplate"><img src={Github} alt="Github" /></a>
