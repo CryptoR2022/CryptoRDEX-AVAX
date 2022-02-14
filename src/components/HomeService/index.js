@@ -21,7 +21,7 @@ export default function Services() {
                 <img src="" alt="" />
                 <p className="service-title">{el.name}</p>
                 <p className="service-description">
-                  Manage it by the easiest way.
+                  Powered By CryptoR DEX 
                 </p>
               </div>
             </Link>

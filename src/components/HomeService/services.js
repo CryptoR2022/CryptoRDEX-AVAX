@@ -1,6 +1,6 @@
 export const services = [
   {
-    name: "Wallet",
+    name: "Transfer",
     url: "/wallet",
     id: "service-1",
   },
@@ -10,7 +10,7 @@ export const services = [
     id: "service-2",
   },
   {
-    name: "Dex",
+    name: "DEX",
     url: "/1inch",
     id: "service-3",
   },
@@ -20,7 +20,7 @@ export const services = [
     id: "service-4",
   },
   {
-    name: "Transfer",
+    name: "Transactions",
     url: "/erc20transfers",
     id: "service-5",
   },
