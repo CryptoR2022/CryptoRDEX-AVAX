@@ -1,0 +1,24 @@
+.services .title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.service {
+  background: #f1f1f1;
+  color: #666;
+  padding: 25px 23px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.service:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #cecece;
+  background: #7500ff;
+  color: #fff;
+}
+
+.service .service-title {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,115 @@
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #7500ff !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-card-actions > li > span a:not(.ant-btn):hover,
+.ant-card-actions > li > span > .anticon:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark)
+  > .ant-menu-submenu-selected
+  .ant-menu-light
+  .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover,
+.ant-menu-item a:hover,
+.ant-menu-item-selected a,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+  color: #7500ff;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #edd8ff;
+}
+
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #8c00ff;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.btn-purple {
+  background: #7500ff;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn-purple:hover {
+  background: #8c00ff;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-purple:focus {
+  background: #fff;
+  border: 1px solid #7500ff;
+  color: #7500ff;
+}
+
+.home,
+.wallet,
+.dex,
+.balance,
+.transfer,
+.nft,
+.contract {
+  background: #fff;
+  box-shadow: 0 0 20px #ececec;
+  border-radius: 0.25rem;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .home,
+  .wallet,
+  .dex,
+  .balance,
+  .transfer,
+  .nft,
+  .contract {
+    padding: 20px 80px;
+  }
+}
+
+footer {
+  text-align: center;
+  background: #e7e7e7 !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #c7c7c7;
+}
+
+footer .title {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+footer .title img, footer .title a{
+  margin: 5px;
+  color: #666;
+}
+
+footer .title a:hover{
+  color: #333;
+}
